@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(255, 145, 0);
+    animation-name: example1; 
+    animation-duration: 8s; 
+    animation-iteration-count: infinite;
+   } 
+    @keyframes example1 { 
+        25% {background-color: rgb(190, 248, 0);} 
+        75% {background-color: rgb(0, 255, 191);} 
+        
+       }
+
+#score{
+    margin-right: 1100px ;
+    font-size: 40;
+    font-family: Agency FB;
+    font-weight: bolder;
+}
+
+#timer{
+font-weight: bolder;
+    font-size: 40;
+    font-family: Agency FB;
+    margin-left: 1100px ;
+}
+
+#drawingsketch{
+    font-weight: bolder;
+        font-size: 30;
+        font-family: Goudy Stout;
+        color: rgb(9, 0, 129);
+    }
+
+    #sketch{
+        font-size: large;
+    }
+    
+    #confidence{
+        font-size: large;
+    }
+    #show_sketch{
+        float: right;
+    }
+    h1{
+        font-family: Algerian;
+        border: 5px solid rgb(0, 0, 0);
+      
+      
+        background: linear-gradient(yellow 25%, rgb(195, 255, 0) 75%);
+    }
